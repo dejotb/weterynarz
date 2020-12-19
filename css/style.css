@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 .navbar, .container2-item-button, footer, .container-1,
 .container-1__body, header, .wrapper {
   display: flex;
@@ -32,8 +32,8 @@
   margin-left: 1em;
 }
 .nav-title p {
-  font-family: "Architects Daughter", cursive;
-  font-size: 1.8em;
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 2.2em;
   text-transform: capitalize;
   font-weight: 700;
   color: #45A86E;
@@ -44,7 +44,7 @@
 }
 .nav-title span {
   text-align: center;
-  font-family: "Lato", sans-serif;
+  font-family: "Shadows Into Light Two", cursive;
   font-size: 0.7em;
   text-transform: capitalize;
   font-weight: 700;
@@ -55,7 +55,7 @@
 }
 
 .title h1 {
-  font-family: "Architects Daughter", cursive;
+  font-family: "Shadows Into Light Two", cursive;
   font-size: 3.5em;
   text-transform: capitalize;
   color: #45A86E;
@@ -64,8 +64,8 @@
 }
 .title p {
   text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 1em;
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 1.2em;
   text-transform: capitalize;
   font-weight: 700;
   color: #525252;
@@ -85,9 +85,9 @@
 
 body {
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.5;
-  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #525252;
   overflow-x: hidden;
   letter-spacing: 0.09em;
@@ -115,8 +115,10 @@ h6 {
 }
 
 h2 {
+  font-family: "Shadows Into Light Two", cursive;
   position: relative;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  font-size: 3em;
 }
 
 h2::before {
@@ -874,9 +876,6 @@ footer p {
   .nav-title {
     display: none;
   }
-}
-.nav-title p {
-  font-size: 2em;
 }
 
 .dropdown-menu:after {

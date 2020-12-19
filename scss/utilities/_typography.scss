@@ -16,7 +16,7 @@ $letter-space    : 1px;
     margin-left: 1em;
     p {
         font-family: $font-family--secondary;
-        font-size: 1.8em;
+        font-size: 2.2em;
         text-transform: capitalize;
         font-weight: 700;
         color: $color-primary;
@@ -28,7 +28,7 @@ $letter-space    : 1px;
     }
     span {
         text-align: center;
-        font-family: $font-family--primary;
+        font-family: $font-family--secondary;
         font-size: .7em;
         text-transform: capitalize;
         font-weight: 700;
@@ -51,8 +51,8 @@ $letter-space    : 1px;
     }
     p {
         text-align: center;
-        font-family: $font-family--primary;
-        font-size: 1em;
+        font-family: $font-family--secondary;
+        font-size: 1.2em;
         text-transform: capitalize;
         font-weight: 700;
         color: $color-secondary;
