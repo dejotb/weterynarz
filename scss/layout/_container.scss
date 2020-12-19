@@ -24,7 +24,7 @@ header {
     @extend %panel-margin-small;
     h2 {
         margin-bottom: 2em;
-        text-transform: capitalize;
+        // text-transform: capitalize;
         padding-top: 100px;
     }
 }
@@ -219,7 +219,7 @@ footer {
     align-items: center;
     justify-content: center;
     h2 {
-        // margin-top: 2em;
+        margin-top: 2em;
     }
     & ul li::before {
         content: "\2022";
