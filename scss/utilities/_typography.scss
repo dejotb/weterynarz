@@ -1,0 +1,63 @@
+
+// ==========================================================================
+// Typography
+// ==========================================================================
+
+
+
+// Text
+
+$base__font-size : 16px;
+$base__line      : 24px;
+$letter-space    : 1px;
+
+.nav-title {
+    margin-right: auto;
+    margin-left: 1em;
+    p {
+        font-family: $font-family--secondary;
+        font-size: 1.8em;
+        text-transform: capitalize;
+        font-weight: 700;
+        color: $color-primary;
+        margin-top: .2em;
+        margin-bottom: 0em;
+        line-height: 1;
+        padding: 0;
+
+    }
+    span {
+        text-align: center;
+        font-family: $font-family--primary;
+        font-size: .7em;
+        text-transform: capitalize;
+        font-weight: 700;
+        color: $color-secondary;
+        margin: 0;
+        display: block;
+        padding: 0;
+    }
+}
+
+.title {
+    @extend %panel-margin-small;
+    h1 {
+        font-family: $font-family--secondary;
+        font-size: 3.5em;
+        text-transform: capitalize;
+        color: $color-primary;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    p {
+        text-align: center;
+        font-family: $font-family--primary;
+        font-size: 1em;
+        text-transform: capitalize;
+        font-weight: 700;
+        color: $color-secondary;
+        padding: .2em 0 0;
+        margin: 0;
+
+    }
+}

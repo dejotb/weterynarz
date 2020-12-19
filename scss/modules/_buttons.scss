@@ -1,0 +1,56 @@
+.button_mobile {
+    margin-top: 2em;
+    padding: .5em 1em;
+    background-color: $color-primary;
+    border-radius: .4em;
+    font-size: calc(1vw + 1em);
+    text-transform: none;
+    transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+    box-shadow: 0 .3em $color-shadow;
+
+    a {
+        color: $white;
+        }
+    &:hover {
+        transform: translateY(.1em);
+        box-shadow: 1px 1px $color-shadow;
+        a,
+        span {
+            color: $squash-blossom;
+        }
+    }
+    @media screen and (min-width:992px){
+       display: none;
+    }
+}
+
+
+.container2-item-button {
+    margin: 0 auto;
+    @extend %flex-column;
+    background-color: $color-primary;
+    height: 120px;
+    width: 120px;
+    border-radius: .4em;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 .3em $color-shadow;
+    transition: .08s ease-out;
+    &:hover {
+        transform: translateY(.1em);
+        box-shadow: 1px 1px $color-shadow;
+    }
+}
+
+.title-spec {
+    position: absolute;
+    width: 135px;
+    top: 125px;
+    left: 2px;
+}
+
+.images-specialities {
+    width: 55px;
+    height: 60px;
+}

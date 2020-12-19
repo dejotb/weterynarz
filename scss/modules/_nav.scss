@@ -1,0 +1,84 @@
+.navbar {
+    @extend %shadow-box-small;
+    @extend %flex-column;
+    align-items: center;
+    padding: .5em .4em;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: $white;
+    &-brand {
+        margin-right: 0;
+    }
+    @media screen and (min-width:992px){
+        &-collapse {
+            width: auto;
+        }
+    }
+
+}
+
+
+.container-fluid {
+    @media screen and (min-width:992px){
+      width: 80%;
+    }
+    @media screen and (min-width:1200px){
+        width: 70%;
+      }
+}
+
+.nav-title {
+    @media screen and (max-width:345px){
+        display: none;
+    }
+    p {
+        font-size: 2em;
+    }
+}
+
+.dropdown-menu {
+    @include clearfix;
+    li {
+        font-size: 1em;
+        overflow: hidden;
+        :active,
+        :hover,
+        :focus {
+            @extend %text-transition;
+        }
+    }
+}
+
+.dropdown-item {
+    &:active {
+    background-color: $color-primary;
+    }
+}
+
+
+.nav-link {
+    transition: border-bottom .5s ease-in-out;
+    border-bottom: 1px solid transparent;
+    &:hover {
+        border-bottom: 1px solid $color-accent;
+    }
+
+}
+
+
+.dropdown-toggle::after {
+    color: $color-primary;
+}
+
+.dropdown-menu li,
+.dropdown-menu li a {
+    @media screen and (max-width: 450px) {
+        white-space: normal;
+        float: left;
+        width: 100%;
+        height: auto;
+        word-wrap: break-word;
+    }
+
+}

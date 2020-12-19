@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: $font-family--primary;
+    line-height: ($base__line/$base__font-size);
+    font-family: $font-family--primary;
+    color: $color-secondary;
+    overflow-x: hidden;
+    letter-spacing: .09em;
+}
+
+
+a {
+    background: transparent;
+    text-decoration: none;
+    color: $color-secondary;
+    :hover {
+        text-decoration: none;
+        color: $color-secondary;
+    }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+
+
+h2 {
+    position: relative;
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: .3em;
+    width: 2em;
+    z-index: -1;
+    margin-left: -.3em;
+    background: $color-accent;
+    background: linear-gradient(left, transparent 0%,#444 50%,transparent 100%);
+}
+
+
+//  Images
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// Lists
+
+li {
+    list-style-type: none;
+}

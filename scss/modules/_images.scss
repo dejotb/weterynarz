@@ -1,0 +1,30 @@
+.container-fluid {
+    img {
+        height: 3.6em;
+    }
+}
+
+.container-1__body {
+    img {
+        margin-top: 2.5em;
+        margin-bottom: 1em;
+    }
+    h3 {
+        padding-top: .4em;
+        padding-bottom: 1.4em;
+    }
+
+}
+
+.doctor-img {
+    height: 85%;
+    transition: transform .4s linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+.image_specialities {
+    height: 5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,37 @@
+
+
+
+
+
+
+.fas {
+    color: $color-primary;
+    transition: .3s ease-in-out;
+    transform-origin: center;
+}
+
+.fa-phone-volume {
+    color: $white;
+}
+
+.button_mobile:hover,
+.address-info a:hover {
+    color: $color-accent;
+    text-shadow: 1px 1px $color-shadow;
+    .icon-link {
+        color: $color-accent;
+        transform: rotate(-35deg);
+    }
+}
+
+.fa-angle-double-left {
+    &:hover {
+    transform: scale(1.4);
+    color: $color-primary;
+    }
+}
+
+
+.return {
+    margin-top: auto;
+}

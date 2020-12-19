@@ -1,0 +1,40 @@
+
+// ==========================================================================
+// Global Config
+// ==========================================================================
+
+//Font Stacks
+
+
+$font-family--primary   : 'Lato', sans-serif;
+$font-family--secondary : 'Architects Daughter', cursive;
+
+// Font Weights
+
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+
+// Color Usage
+
+$white    : #fff;
+$tundora  : #404040;
+$grey: #525252;
+$ocean-green: #45A86E;
+$black : #0b0b0b;
+$squash-blossom: #f6b93b;
+
+$color-primary           : $ocean-green;
+$color-secondary         : $grey;
+$color-accent            : $squash-blossom;
+
+
+
+// Color Palette Modifiers
+
+$color-secondary-light   : lighten($color-secondary, 30%);
+$color-primary-dark      : darken($color-primary, 20%);
+$color-primary-light     : lighten($color-primary, 20%);
+$color-primary-lighter   : lighten($color-primary, 51%);
+$color-shadow            : rgba($black, .2);
+
+
