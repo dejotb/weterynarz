@@ -559,7 +559,7 @@ header,
 .container-4-wrapper,
 .container-5-wrapper {
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
 }
 @media screen and (min-width: 992px) {
   .container-1-wrapper,
@@ -578,7 +578,7 @@ header,
 
 .container2-wrapper {
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
 }
 @media screen and (min-width: 992px) {
   .container2-wrapper {
@@ -675,7 +675,7 @@ footer p {
   display: flex;
   justify-content: space-evenly;
   margin-top: 7em;
-  width: 90%;
+  width: 95%;
 }
 @media screen and (min-width: 992px) {
   .container-5-wrapper {
@@ -694,7 +694,7 @@ footer p {
 }
 
 .container-6 {
-  min-height: 85vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -717,7 +717,7 @@ footer p {
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 7em;
-  width: 90%;
+  width: 95%;
 }
 @media screen and (min-width: 992px) {
   .container-6-wrapper {
