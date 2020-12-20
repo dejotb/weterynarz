@@ -47,3 +47,10 @@ slider.addEventListener('transitionend', function() {
 
 })
 
+
+/*  Nav automatic collapse function */
+
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
+$('.modal').modal('show');
