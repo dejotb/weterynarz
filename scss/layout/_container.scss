@@ -5,6 +5,11 @@
     width: 100vw;
 }
 
+main {
+    flex: 1;
+    overflow: auto;
+}
+
 header {
     margin-top: 7em;
     margin-bottom: 0em;
@@ -21,13 +26,19 @@ header {
 .container-2,
 .container-3,
 .container-4 {
-    @extend %panel-margin-small;
     h2 {
         margin-bottom: 2em;
-        // text-transform: capitalize;
         padding-top: 100px;
     }
 }
+
+.container-1,
+.container-2,
+.container-4 {
+@extend %panel-margin-small;
+}
+
+
 
 .container-1,
 .container-1__body {
@@ -41,7 +52,7 @@ header {
 
 .container-1,
 .container-2 {
-    margin-bottom: -100px;
+    margin-bottom: -120px;
 }
 
 header,
@@ -127,7 +138,7 @@ footer {
     margin-top: auto;
     justify-content: center;
     align-items: center;
-    max-height: 100px;
+    height: 100px;
     p {
         color: $color-secondary-light;
         margin: 0;
@@ -213,13 +224,13 @@ footer {
 }
 
 .container-6 {
-    min-height: 70vh ;
+    // min-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     h2 {
-        margin-top: 2em;
+        margin-top: 1em;
     }
     & ul li::before {
         content: "\2022";
@@ -232,11 +243,11 @@ footer {
 
 
 .container-6-wrapper {
-    height: 100%;
+    // height: 1000%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 7em;
+    margin-top: 3em;
     width: 95%;
     @media screen and (min-width:992px){
         width: 80%;;

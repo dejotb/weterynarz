@@ -17,7 +17,6 @@
 
 .container-1,
 .container-2,
-.container-3,
 .container-4, .title {
   margin-top: 2em;
   padding-bottom: 8em;
@@ -118,7 +117,6 @@ h2 {
   font-family: "Shadows Into Light Two", cursive;
   position: relative;
   text-transform: capitalize;
-  font-size: 3em;
 }
 
 h2::before {
@@ -487,6 +485,11 @@ template {
   width: 100vw;
 }
 
+main {
+  flex: 1;
+  overflow: auto;
+}
+
 header {
   margin-top: 7em;
   margin-bottom: 0em;
@@ -515,7 +518,7 @@ header img {
 
 .container-1,
 .container-2 {
-  margin-bottom: -100px;
+  margin-bottom: -120px;
 }
 
 header,
@@ -607,7 +610,7 @@ footer {
   margin-top: auto;
   justify-content: center;
   align-items: center;
-  max-height: 100px;
+  height: 100px;
 }
 footer p {
   color: #9f9f9f;
@@ -696,14 +699,13 @@ footer p {
 }
 
 .container-6 {
-  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .container-6 h2 {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 .container-6 ul li::before {
   content: "•";
@@ -714,11 +716,10 @@ footer p {
 }
 
 .container-6-wrapper {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 7em;
+  margin-top: 3em;
   width: 95%;
 }
 @media screen and (min-width: 992px) {
@@ -916,7 +917,7 @@ footer p {
 
 .carousel,
 .carousel-desktop {
-  width: 90%;
+  width: 95%;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -977,6 +978,9 @@ footer p {
   .doctors h3 {
     font-size: 1em;
   }
+}
+.doctors h3 a {
+  font-style: italic;
 }
 
 .img-overlay {
