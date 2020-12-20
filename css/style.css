@@ -116,7 +116,6 @@ h6 {
 h2 {
   font-family: "Shadows Into Light Two", cursive;
   position: relative;
-  text-transform: capitalize;
 }
 
 h2::before {
