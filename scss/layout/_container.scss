@@ -33,11 +33,17 @@ header {
 }
 
 .container-1,
-.container-2,
-.container-4 {
+.container-2 {
 @extend %panel-margin-small;
 }
 
+.container-3 {
+    @media screen and (min-width:992px){
+        margin-top: 2em;
+        padding-bottom: 6em;
+    }
+
+}
 
 
 .container-1,
@@ -50,9 +56,8 @@ header {
     }
 }
 
-.container-1,
-.container-2 {
-    margin-bottom: -120px;
+.container-1 {
+    margin-bottom: -100px;
 }
 
 header,
@@ -122,9 +127,6 @@ header,
 }
 
 .container-3 {
-    h2 {
-        margin-top: 3em;
-    }
     h3 {
         margin: 1em 0;
     }

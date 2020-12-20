@@ -16,10 +16,9 @@
 }
 
 .container-1,
-.container-2,
-.container-4, .title {
+.container-2, .title {
   margin-top: 2em;
-  padding-bottom: 8em;
+  padding-bottom: 12em;
 }
 
 .navbar {
@@ -47,7 +46,7 @@
   font-size: 0.7em;
   text-transform: capitalize;
   font-weight: 700;
-  color: #525252;
+  color: #272727;
   margin: 0;
   display: block;
   padding: 0;
@@ -67,7 +66,7 @@
   font-size: 1.2em;
   text-transform: capitalize;
   font-weight: 700;
-  color: #525252;
+  color: #272727;
   padding: 0.2em 0 0;
   margin: 0;
 }
@@ -87,7 +86,7 @@ body {
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
   font-family: "Raleway", sans-serif;
-  color: #525252;
+  color: #272727;
   overflow-x: hidden;
   letter-spacing: 0.09em;
 }
@@ -95,11 +94,11 @@ body {
 a {
   background: transparent;
   text-decoration: none;
-  color: #525252;
+  color: #272727;
 }
 a :hover {
   text-decoration: none;
-  color: #525252;
+  color: #272727;
 }
 
 h1,
@@ -508,6 +507,13 @@ header img {
   padding-top: 100px;
 }
 
+@media screen and (min-width: 992px) {
+  .container-3 {
+    margin-top: 2em;
+    padding-bottom: 6em;
+  }
+}
+
 .container-1 img,
 .container-1__body img {
   width: 5em;
@@ -515,9 +521,8 @@ header img {
   justify-self: center;
 }
 
-.container-1,
-.container-2 {
-  margin-bottom: -120px;
+.container-1 {
+  margin-bottom: -100px;
 }
 
 header,
@@ -595,9 +600,6 @@ header,
   }
 }
 
-.container-3 h2 {
-  margin-top: 3em;
-}
 .container-3 h3 {
   margin: 1em 0;
 }
@@ -612,7 +614,7 @@ footer {
   height: 80px;
 }
 footer p {
-  color: #9f9f9f;
+  color: #747474;
   margin: 0;
 }
 
