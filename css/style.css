@@ -46,7 +46,7 @@
   font-size: 0.7em;
   text-transform: capitalize;
   font-weight: 700;
-  color: #272727;
+  color: #525252;
   margin: 0;
   display: block;
   padding: 0;
@@ -66,7 +66,7 @@
   font-size: 1.2em;
   text-transform: capitalize;
   font-weight: 700;
-  color: #272727;
+  color: #525252;
   padding: 0.2em 0 0;
   margin: 0;
 }
@@ -86,7 +86,7 @@ body {
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
   font-family: "Raleway", sans-serif;
-  color: #272727;
+  color: #525252;
   overflow-x: hidden;
   letter-spacing: 0.09em;
 }
@@ -94,11 +94,11 @@ body {
 a {
   background: transparent;
   text-decoration: none;
-  color: #272727;
+  color: #525252;
 }
 a :hover {
   text-decoration: none;
-  color: #272727;
+  color: #525252;
 }
 
 h1,
@@ -121,8 +121,8 @@ h2::before {
   content: "";
   position: absolute;
   bottom: 0;
-  height: 0.3em;
-  width: 2em;
+  height: 0.2em;
+  width: 1.2em;
   z-index: -1;
   margin-left: -0.3em;
   background: #f6b93b;
@@ -614,7 +614,7 @@ footer {
   height: 80px;
 }
 footer p {
-  color: #747474;
+  color: #9f9f9f;
   margin: 0;
 }
 
