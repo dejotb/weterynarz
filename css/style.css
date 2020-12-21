@@ -845,7 +845,6 @@ footer p {
   transition: transform 0.4s linear;
   transform-origin: center;
   transform-box: fill-box;
-  position: relative;
 }
 
 .image_specialities {
@@ -1017,6 +1016,7 @@ footer p {
 }
 
 .img-wrapper {
+  position: relative;
   align-self: center;
   display: flex;
   justify-content: center;
